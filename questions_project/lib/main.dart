@@ -5,6 +5,7 @@ void main() => runApp(const PerguntaApp());
 
 class PerguntaAppState extends State<PerguntaApp> {
   var perguntaSelecionada = 0;
+  // modificar isso tudo
 
   void responder() {
     setState(() {
